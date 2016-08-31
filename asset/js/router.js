@@ -38,7 +38,9 @@ var bmkgCheck = Vue.component('bmkg',{
                         Vue.http.get('http://ibacor.com/api/bmkg?view='+newItem).then((response)=>{
                            this.$set('cuaca',response.json().data);
                           },(response)=>{
-                                 
+                                 console.log(response);
+                                 this.$set('error',response.json());
+
                            });
                      }
                }
