@@ -65,8 +65,9 @@
 			<input type="text" v-model="search" placeholder="Cari kotamu!">	
 			<ul >
 				<li v-if="!cuaca.length">No result</li>
-				<li v-for="data in cuaca | filterBy search	" >{{data.kota}} || {{data.prakiraan.sekarang.cuaca}}</li>
-			</ul>	
+				<li v-for="data in cuaca | filterBy search" >{{data.kota}} || {{data.prakiraan.sekarang.cuaca}}</li>
+			</ul>
+			<h6 style="color:red">Sorry API blocked by github pages :( but work at local :D </h6>
 		</div>
 	</template>
 	<template id="cssplay-template">
