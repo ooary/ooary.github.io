@@ -1,0 +1,47 @@
+.bs-docs-footer {
+    background-color: #2a2730;
+    color: #99979c;
+    margin-top: 180px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.bs-docs-footer a {
+    color: #fff;
+}
+.bs-docs-footer-links {
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+.bs-docs-footer-links li {
+    display: inline-block;
+}
+.bs-docs-footer-links li + li {
+    margin-left: 15px;
+}
+.retangle{
+
+        background-color: black;
+}
+.static{
+    text-align: center;
+}
+
+.koalas{
+
+}
+.bold {
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
